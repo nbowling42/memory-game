@@ -1,0 +1,92 @@
+#game div {
+	border-radius: 10px;
+	width: 15%;
+	height: 200px;
+	margin: 10px;
+	display: inline-block;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #046e8f;
+	background-image: url('memory_game_pics/question_mark.jpg');
+	transition: all 1s;
+}
+
+#start-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#game-board {
+	color: white;
+	background-color: #183446;
+	height: 100%;
+}
+
+#finish-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#start-menu .start-game {
+	border-radius: 80px;
+	width: 80%;
+	height: 80%;
+	text-align: center;
+	font-size: 50px;
+	overflow: auto;
+	background-color: #183446;
+	color: white;
+}
+
+#finish-menu .finish-game {
+	width: 80%;
+	height: 80%;
+	text-align: center;
+	font-size: 45px;
+	overflow: auto;
+	background-color: #183446;
+	color: white;
+	border-radius: 80px;
+}
+
+.score-counter {
+	display: inline-block;
+	font-size: 25px;
+	margin-left: 60%;
+	font-weight: 900;
+}
+
+.game-title {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.remove {
+	display: none !important;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	background-color: #0090c1;
+	font-family: 'Bungee Shade', cursive;
+}
+
+button {
+	width: 300px;
+	height: 100px;
+	position: relative;
+	border-radius: 10px;
+	font-size: 35px;
+	font-family: 'Bungee Shade', cursive;
+	background-color: #046e8f;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
